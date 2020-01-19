@@ -22,7 +22,7 @@
         
 		    #实例1
     		if True:
-    			print ("True")
+    		    print ("True")
        	 	else:
     		print ("False")//此处缩进错误
     		# 没有严格缩进，在执行时会报错
@@ -77,12 +77,12 @@ print 默认输出是换行的，如果要实现不换行需要在print参数里
 
 
 
-- 中国大学慕课MOOC python语言程序设计（网课）
-[https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
+- 中国大学慕课MOOC python语言程序设计（网课）：
+[https://www.icourse163.org/learn/BIT-268001#/learn/announce](https://www.icourse163.org/learn/BIT-268001#/learn/announce)
 
 
 - 菜鸟runboob python基础教程： 
-[https://www.runoob.com/python/python-tutorial.html](https://www.runoob.com/python/python-tutorial.html)
+[https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
 
 
 - 廖雪峰笔记python教程：
