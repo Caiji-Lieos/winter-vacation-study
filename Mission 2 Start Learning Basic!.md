@@ -48,7 +48,7 @@
 <br>
 
 - print 输出(重点)<br>
-print 默认输出是换行的，如果要实现不换行需要在变量末尾加上逗号","。
+print 默认输出是换行的，如果要实现不换行需要在print参数里面添加end=''。
 
         #!/usr/bin/python
 	    # -*- coding: UTF-8 -*-
@@ -56,16 +56,16 @@ print 默认输出是换行的，如果要实现不换行需要在变量末尾�
 	    x="a"
 	    y="b"
 	    # 换行输出
-	    print x
-	    print y
+	    print (x)
+	    print (y)
 	    
-	    print '---------'
+	    print ('---------')
 	    # 不换行输出
-	    print x,
-	    print y,
+	    print (x,end='')
+	    print (y,end='')
 	    
 	    # 不换行输出
-	    print x,y
+	    print (x,y,end='')
 		
 		输出结果：
 		> a
@@ -78,7 +78,7 @@ print 默认输出是换行的，如果要实现不换行需要在变量末尾�
 
 
 - 中国大学慕课MOOC python语言程序设计（网课）
-[https://www.icourse163.org/learn/BIT-268001#/learn/announce](https://www.icourse163.org/learn/BIT-268001#/learn/announce)
+[https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
 
 
 - 菜鸟runboob python基础教程： 
