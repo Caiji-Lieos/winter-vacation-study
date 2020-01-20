@@ -21,8 +21,8 @@
 	1. 缩进的空白数量是可变的，但是所有代码块语句必须包含相同的缩进空白数量（4个空格），这个必须严格执行。
         
 		    #实例1
-    		if True:
-    			print ("True")
+			if True:
+				print ("True")
        	 	else:
     		print ("False")//此处缩进错误
     		# 没有严格缩进，在执行时会报错
@@ -63,22 +63,19 @@
 - print 输出(重点)<br>
 print 默认输出是换行的，如果要实现不换行需要在print参数里面添加end=''。
 
-        #!/usr/bin/python
-	    # -*- coding: UTF-8 -*-
-	    
-	    x="a"
-	    y="b"
-	    # 换行输出
-	    print x
-	    print y
-	    
-	    print '---------'
-	    # 不换行输出
-	    print x,
-	    print y,
-	    
-	    # 不换行输出
-	    print x,y
+		#!/usr/bin/python3
+ 
+		x="a"
+		y="b"
+		# 换行输出
+		print( x )
+		print( y )
+
+		print('---------')
+		# 不换行输出
+		print( x, end=" " )
+		print( y, end=" " )
+		print()
 		
 		输出结果：
 		> a
