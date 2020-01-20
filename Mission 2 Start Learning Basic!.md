@@ -22,7 +22,7 @@
         
 		    #实例1
     		if True:
-    		    print ("True")
+    			print ("True")
        	 	else:
     		print ("False")//此处缩进错误
     		# 没有严格缩进，在执行时会报错
@@ -45,6 +45,19 @@
 	1. 单行注释采用 # 开头。
 	1. 多行注释使用三个单引号(''')或三个双引号(""")。
 
+		    #!/usr/bin/python3
+		    # 第一个注释
+		    # 第二个注释
+		     
+		    '''
+		    第三注释
+		    第四注释
+		    '''
+		     
+		    """
+		    第五注释
+		    第六注释
+		    """
 <br>
 
 - print 输出(重点)<br>
@@ -56,16 +69,16 @@ print 默认输出是换行的，如果要实现不换行需要在print参数里
 	    x="a"
 	    y="b"
 	    # 换行输出
-	    print (x)
-	    print (y)
+	    print x
+	    print y
 	    
-	    print ('---------')
+	    print '---------'
 	    # 不换行输出
-	    print (x,end='')
-	    print (y,end='')
+	    print x,
+	    print y,
 	    
 	    # 不换行输出
-	    print (x,y,end='')
+	    print x,y
 		
 		输出结果：
 		> a
@@ -77,12 +90,12 @@ print 默认输出是换行的，如果要实现不换行需要在print参数里
 
 
 
-- 中国大学慕课MOOC python语言程序设计（网课）：
+- 中国大学慕课MOOC python语言程序设计（网课）
 [https://www.icourse163.org/learn/BIT-268001#/learn/announce](https://www.icourse163.org/learn/BIT-268001#/learn/announce)
 
 
 - 菜鸟runboob python基础教程： 
-[https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
+[https://www.runoob.com/python3/python3-basic-syntax.html](https://www.runoob.com/python3/python3-basic-syntax.html)
 
 
 - 廖雪峰笔记python教程：
